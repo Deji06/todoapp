@@ -34,7 +34,7 @@ const SetTask = ({ setTaskArray, taskArray, setShowTaskBar ,userInputValue, setU
 
   return (
     <>
-      <div className="sm:w-[500px] w-[320px] rounded-[10px] p-5  bg-[#ECEDF6]  absolute sm:left-[450px] top-[150px] ">
+      <div className="sm:w-[500px] w-[320px] rounded-[10px]  p-5   mx -auto  bg-[#ECEDF6]  absolute  left-1/2 right-1/2 transform -translate-x-1/2 ">
          <MdCancelPresentation  className="absolute text-[2rem] top-[-40px] right-0 " onClick={cancelTask}/>
             <h3 className="text-[1.2rem] text-[#646681] mt-0 ml-5"> Add <span className="uppercase">todo</span>  </h3>
             <form className="flex flex-col ml-3 mt-3 gap-[0.5rem]"> 
